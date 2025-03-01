@@ -1,0 +1,37 @@
+baseURL: https://sadilekivan.github.io/
+languageCode: en-us
+title: Ivan Sadílek
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    title: Ahoy!
+    content:
+      Welcome to my site, hope you find something cool or worthwhile. Enjoy
+      the stuff I make.
+  socialIcons:
+    - name: github
+      url: https://github.com/sadilekivan
+  cover:
+    linkFullImages: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts
+      weight: 10
+
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weigh: 100
+
+    - identifier: projects
+      name: Projects
+      url: /tags/projects
+      weight: 20
